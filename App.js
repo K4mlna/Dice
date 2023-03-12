@@ -9,8 +9,13 @@ import Slider from './components/Slider';
 import HomeScreen from './components/HomeScreen';
 import LoginScreen from './components/LoginScreen';
 import ReviewScreen from './components/Reviews';
-import BookScreen from "./components/Book"
-
+import BookScreen from "./components/Book";
+import Game from "./components/Game";
+import Party from './components/Party';
+import Party2 from "./components/Party2"
+import FoodScreen from "./components/Food"
+import FoodScreen2 from "./components/Food2"
+import ProfileScreen from './components/Profile';
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -35,7 +40,13 @@ function App() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Reviews" component={ReviewScreen} />
-        <Stack.Screen name="Book" component={BookScreen} />     
+        <Stack.Screen name="Book" component={BookScreen} />
+        <Stack.Screen name="Game" component={Game} />
+        <Stack.Screen name="Party" component={Party} />
+        <Stack.Screen name="Party2" component={Party2} />
+        <Stack.Screen name="Food" component={FoodScreen} />
+        <Stack.Screen name="Food2" component={FoodScreen2} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -154,7 +154,7 @@ const Header = (props) => {
               </TouchableOpacity>
             </View>
             <View style={styles.menuandacc}>
-              <TouchableOpacity style={styles.search}>
+              <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/user.png")}></Image>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => {
@@ -173,22 +173,22 @@ const Header = (props) => {
             <TouchableOpacity onPress={() => props.navigation.navigate("Book")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>Book table</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.burgerButtons}>
+            <TouchableOpacity onPress={() => props.navigation.navigate("Game")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>game catalog</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.burgerButtons}>
+            <TouchableOpacity onPress={() => props.navigation.navigate("Food")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>food drinks</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.burgerButtons}>
-              <Text style={styles.burgertext}>order food</Text>
+              <Text onPress={() => props.navigation.navigate("Food")} style={styles.burgertext}>order food</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.burgerButtons}>
+            <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>Find a group</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.burgerButtons}>
-              <Text style={styles.burgertext}>Social</Text>
+              <Text style={styles.burgertext}>Events</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.burgerButtons}>
+            <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>account</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => {animate()}}style={styles.burgerArrowButton}>

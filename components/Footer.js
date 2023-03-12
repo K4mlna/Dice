@@ -48,7 +48,7 @@ const Footer = (props) => {
               <TouchableOpacity onPress={() => props.navigation.navigate("Home")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/house.png")}></Image>
               </TouchableOpacity>
-              <TouchableOpacity style={styles.search}>
+              <TouchableOpacity onPress={() => props.navigation.navigate("Game")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/game.png")}></Image>
               </TouchableOpacity>
             </View>
@@ -58,7 +58,7 @@ const Footer = (props) => {
               </TouchableOpacity>
             </View>
             <View style={styles.menuandacc}>
-              <TouchableOpacity style={styles.search}>
+              <TouchableOpacity onPress={() => props.navigation.navigate("Food")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/drinks.png")}></Image>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => props.navigation.navigate("Reviews")} style={styles.search}>

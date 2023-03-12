@@ -7,7 +7,7 @@ const images = [
     uri: 'https://media.discordapp.net/attachments/798264990850482187/1079833468843868161/image.png',
     title: 'Menu',
     subtitle: 'Drinks and food',
-    navigate: "Book"
+    navigate: "Food"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const images = [
     uri: 'https://media.discordapp.net/attachments/798264990850482187/1080155394489462874/games.jpg?width=1175&height=671',
     title: 'Games',
     subtitle: 'Browse the catalog',
-    navigate: "Book"
+    navigate: "Game"
   },
 ];
 
