@@ -11,7 +11,7 @@ export default function Party({navigation, source, title, text, bottomtext}) {
 
 
     return (
-      <TouchableOpacity style={styles.card}>
+      <TouchableOpacity onPress={() => navigation.navigate("Game3")} style={styles.card}>
         <Image source={{ uri: source }} style={styles.image} />
           <View style={styles.content}>
             <Text style={styles.title}>{title}</Text>

@@ -144,7 +144,7 @@ const Header = (props) => {
         <SafeAreaView style={styles.header}>
           <View style={styles.top_navbar}>
             <View style={styles.menuandacc}>
-              <TouchableOpacity style={styles.search}>
+              <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/search.png")}></Image>
               </TouchableOpacity>
             </View>

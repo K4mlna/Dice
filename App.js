@@ -16,6 +16,7 @@ import Party2 from "./components/Party2"
 import FoodScreen from "./components/Food"
 import FoodScreen2 from "./components/Food2"
 import ProfileScreen from './components/Profile';
+import GameScreen3 from './components/Games3';
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
         <Stack.Screen name="Food" component={FoodScreen} />
         <Stack.Screen name="Food2" component={FoodScreen2} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
+        <Stack.Screen name="Game3" component={GameScreen3} />
       </Stack.Navigator>
     </NavigationContainer>
   );
