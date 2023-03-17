@@ -144,7 +144,7 @@ const Header = (props) => {
         <SafeAreaView style={styles.header}>
           <View style={styles.top_navbar}>
             <View style={styles.menuandacc}>
-              <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.search}>
+              <TouchableOpacity onPress={() => props.navigation.navigate("GameList")} style={styles.search}>
                 <Image style={styles.search} source={require ("../assets/search.png")}></Image>
               </TouchableOpacity>
             </View>
@@ -185,8 +185,8 @@ const Header = (props) => {
             <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>Find a group</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.burgerButtons}>
-              <Text style={styles.burgertext}>Events</Text>
+            <TouchableOpacity onPress={() => props.navigation.navigate("GameList")} style={styles.burgerButtons}>
+              <Text style={styles.burgertext}>Game advisor AI</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => props.navigation.navigate("Profile")} style={styles.burgerButtons}>
               <Text style={styles.burgertext}>account</Text>

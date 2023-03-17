@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Strategic Conquest",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085294096438022164/R.png?width=383&height=670"
+  },
+  {
+    "id": 2,
+    "name": "Epic Adventure Quest",
+    "category": "Adventure",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085294298423120044/4cc84a4fd30e10a6dca072467a8597bc.png?width=350&height=350"
+  },
+  {
+    "id": 3,
+    "name": "The Great Escape Room",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085294545501175909/image.png?width=386&height=395"
+  },
+  {
+    "id": 4,
+    "name": "Survival Island",
+    "category": "Adventure",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085294717337620630/image.png?width=693&height=670"
+  },
+  {
+    "id": 5,
+    "name": "Medieval Battle Royale",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085294944769552384/image.png?width=757&height=670"
+  },
+  {
+    "id": 6,
+    "name": "Mystery Mansion",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295125221097502/image.png?width=750&height=670"
+  },
+  {
+    "id": 7,
+    "name": "Galactic Conquest",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295305249017917/image.png?width=485&height=490"
+  },
+  {
+    "id": 8,
+    "name": "Island Paradise",
+    "category": "Simulation",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295380054429756/image.png?width=633&height=571    "
+  },
+  {
+    "id": 9,
+    "name": "Mystery Mansion 2: Haunted House",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295467371433984/image.png?width=645&height=670"
+  },
+  {
+    "id": 10,
+    "name": "Wild West Showdown",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295586355449956/image.png?width=741&height=670"
+  },
+  {
+    "id": 11,
+    "name": "Escape from Alcatraz",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085295724234809436/image.png?width=648&height=670"
+  },
+  {
+    "id": 12,
+    "name": "Tropical Island Escape",
+    "category": "Simulation",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085300717637607495/image.png?width=327&height=396"
+  },
+  {
+    "id": 13,
+    "name": "Medieval Siege",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085300880854749204/Golden-Time.png?width=753&height=670"
+  },
+  {
+    "id": 14,
+    "name": "Island Waifu 2 : the game",
+    "category": "Simulation",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085301227061006386/image.png?width=311&height=326    "
+  },
+  {
+    "id": 15,
+    "name": "Waifu puzzle 2",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085300190338097192/image.png?width=315&height=363"
+  },
+  {
+    "id": 16,
+    "name": "Waifu strategic fight",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085300014647083198/image.png?width=645&height=648"
+  },
+  {
+    "id": 17,
+    "name": "Waifu labyrinth",
+    "category": "Puzzle",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085299856421175357/image.png?width=462&height=498"
+  },
+  {
+    "id": 18,
+    "name": "Waifu simulation",
+    "category": "Simulation",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085299566993227886/image.png?width=267&height=256"
+  },
+  {
+    "id": 19,
+    "name": "Medieval waifu battle",
+    "category": "Strategy",
+    "image": "https://media.discordapp.net/attachments/798264990850482187/1085299375267385445/image.png?width=257&height=283"
+  }
+]
